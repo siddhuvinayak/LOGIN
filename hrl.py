@@ -1,4 +1,5 @@
-# Python program to find the element occurring odd number of times
+import streamlit as ss
+ss.write("# Python program to find the element occurring odd number of times
 
 def getOddOccurrence(arr):
 
@@ -16,3 +17,4 @@ def getOddOccurrence(arr):
 arr = [ 2, 3, 5, 4, 5, 2, 4, 3, 5, 2, 4, 4, 2]
 
 print("%d" % getOddOccurrence(arr))
+")
